@@ -6,7 +6,9 @@ namespace Server
     {
         public void Run(Stormancer.IAppBuilder builder)
         {
-            builder.
+            builder.SceneTemplate("helloworld-template", scene => {
+                //Factory
+            });
         }
     }
 }
