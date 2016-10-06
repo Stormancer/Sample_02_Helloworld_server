@@ -46,8 +46,8 @@
       <HintPath>packages\Stormancer.Core.1.3.0.6\lib\net45\Stormancer.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Stormancer.Server, Version=1.6.2.3, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Stormancer.Server.1.6.2.3\lib\net45\Stormancer.Server.dll</HintPath>
+    <Reference Include="Stormancer.Server, Version=1.10.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Stormancer.Server.1.10.1.0\lib\net45\Stormancer.Server.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
