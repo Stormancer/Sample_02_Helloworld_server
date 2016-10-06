@@ -1,4 +1,5 @@
 using Stormancer;
+using System.Threading.Tasks;
 
 namespace Server
 {
@@ -7,7 +8,15 @@ namespace Server
         public void Run(Stormancer.IAppBuilder builder)
         {
             builder.SceneTemplate("helloworld-template", scene => {
-                //Factory
+
+                //Add a procedure named "hello" to the scene.
+                scene.AddProcedure("hello", ctx => {
+
+                    //Send the string "Hello world!" to the caller.
+                    ctx.SendValue("Hello world!");
+
+                    return Task.FromResult(true);
+                });
             });
         }
     }
